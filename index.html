@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Code Samples</title>
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <section class='lengths'>
+        Section Container -  width=50%; font-size=2em
+        <p class='percent'>font-size=50%</p>
+        <article class='sub-section-1'>
+           width=50%, font-size=1em
+        </article>
+        <article class='sub-section-2'>
+            width=100%, font-size=1em
+        </article>        
+        <article class='sub-section-3'>
+            width=100%, font-size=.5em
+        </article>        
+        <article class='sub-section-4'>
+            width=100%, font-size=1rem
+        </article> 
+        <article class='sub-section-5'>
+            width=100%, font-size=2rem
+        </article>       
+        <article class='sub-section-6'>
+            width=100%, font-size=10px
+        </article>   
+        <article class='sub-section-7'>
+            width=100%, font-size=50px
+        </article>  
+        <article class='sub-section-8'>
+            width=100%, font-size=90px
+        </article>                  
+    </section>
+
+    <!-- This section demonstrates how em units work. The size is relative to the parent - so the font size automatically increases for the nested list items -->
+    <section class='list-with-ems'>
+        <p>This section has a font size of 1em. All the ul elements are set to 1.25 em. The font-size of the nested list items so automatically increases.</p>
+        <ul class='list'>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+                <ul class='list'>
+                    <li>Item 3a</li>
+                        <ul class="list">
+                            <li>Item 3a1</li>
+                        </ul>
+                </ul>
+        </ul>
+    </section>
+
+    <!-- This section demonstrates how rem units work. The size is relative to the root - so the font size remains the same for the nested list items as well. However, the size can be controlled by changing the root element size or increasing the rem value of the section/container in which the element is present. -->
+    <section class='list-with-rems'>
+        <p>This section has a font size of 1.5rem. All the ul elements are set to 1.25rem. The font-size of the nested list items remains the same as they all refer to the root element.</p>
+        <ul class='list-rem'>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+                <ul class='list-rem'>
+                    <li>Item 3a</li>
+                        <ul class="list-rem">
+                            <li>Item 3a1</li>
+                        </ul>
+                </ul>
+        </ul>
+    </section>
+    
+</body>
+</html>

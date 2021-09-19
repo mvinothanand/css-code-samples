@@ -1,0 +1,84 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+.lengths {
+    width: 50%;
+    border: 1px solid grey;
+    font-size: 2em;
+}
+
+.percent {
+    font-size: 50%;
+    border: 1px solid grey;
+}
+
+.sub-section-1 {
+    width: 50%;
+    border: hotpink solid 1px;
+    font-size: 1em;
+}
+
+.sub-section-2 {
+    width: 100%;
+    border: red solid 1px;
+    font-size: 1em;
+}
+
+.sub-section-3 {
+    width: 100%;
+    border: blue solid 1px;
+    font-size: .5em;
+}
+
+.sub-section-4 {
+    width: 100%;
+    background-color: cornflowerblue;
+    font-size: 1rem;
+}
+.sub-section-5 {
+    width: 100%;
+    background-color: yellowgreen;
+    font-size: 2rem;
+}
+
+.sub-section-6 {
+    width: 100%;
+    background-color: brown;
+    font-size: 10px;
+}
+
+.sub-section-7 {
+    width: 100%;
+    background-color: brown;
+    font-size: 50px;
+}
+
+.sub-section-8 {
+    width: 100%;
+    background-color: brown;
+    font-size: 90px;
+}
+
+.list-with-ems {
+    background-color: burlywood;
+    font-size: 1em;
+    padding: 20px;
+}
+
+.list {
+    font-size: 1.25em;
+}
+
+.list-with-rems {
+    background-color:cadetblue;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+.list-rem {
+    font-size: 1.25rem;
+}
