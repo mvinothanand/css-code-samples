@@ -1,0 +1,49 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+code {
+    font-size: 1em;
+    background-color:darkseagreen;
+    padding: 5px;
+    border-radius: 5px;
+}
+.flexbox-basic {
+    display: flex;    
+    border: darkgrey 1px solid;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px 0;
+    /* flex-wrap: wrap-reverse; */
+}
+
+.fb-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.fb-wrap {
+    flex-wrap: wrap;
+}
+
+.fb-basic-item {
+    width:20%;
+    padding: 10px;
+    margin: 2px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.fb-item-odd {
+    background-color: cornflowerblue;
+}
+
+.fb-item-even {
+    background-color:darkcyan;
+}
+
+.fb-row-rev-desc {
+    order:6;
+}
+
