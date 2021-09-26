@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Positioning</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- By default HTML elements take the natural flow of the code and stack up -->
+    <div class='red std-div'>
+        <!-- <p>Red</p> -->
+        Red
+    </div>
+    <div class='yellow std-div'>
+        <!-- <p >Yellow</p> -->
+        yellow
+    </div>
+    <div class='blue std-div'>
+        <!-- <p >Blue</p> -->
+        Blue
+    </div>
+
+    <!-- position set to absolute 
+        absolutely positioned elements will not be part of the document flow of HTML.
+        They overlap each other if their cordinates are not set explicitly.
+        The coordinates are with respect to the HTML window rather than the one preceding in the natural flow or a parent.
+    -->
+    <div class='green abs-div std-div abs-div-pos-1 '>
+        green absolute position
+    </div>
+
+    <div class='brown abs-div std-div abs-div-pos-2'>
+        brown absolute position: left:50px, bottom:50px 
+    </div>
+
+    <!-- position set to relative
+        the position of the element will be relative to the position of the element in the document flow 
+        It also gives a z-index to the element.
+    -->
+    <div class='black std-div rel-div rel-div-pos-1'>
+        black relative position
+    </div>
+    <div class='gray std-div'>
+        gray relative position
+    </div>
+
+    <!-- Position Fixed 
+        the element is fixed to a position with respect to the viewport    
+    -->
+    <div class='maroon std-div fixed-div'>
+        Maroon is fixed
+    </div>
+
+    <!-- Position sticky -->
+    <div class='turqoise std-div sticky-div'>
+        turqoise moves but sticks to the viewport
+    </div>
+    
+</body>
+</html>

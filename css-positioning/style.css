@@ -1,0 +1,93 @@
+html {
+    height: 3000px;
+}
+.std-div {
+    width: 200px;
+    height: 200px;
+    color: indigo;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    /* vertical-align: text-bottom; */
+    
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.abs-div {
+    position: absolute;
+}
+
+.abs-div-pos-1 {
+    left: 75px;
+    bottom: 5px;
+}
+
+.abs-div-pos-2 {
+    left: 100px;
+    bottom: 50px;
+}
+
+.rel-div {
+    position: relative;
+}
+
+.rel-div-pos-1 {
+    /* left: 10px; */
+    bottom: 50px;
+    right:30px;
+}
+
+.fixed-div {
+    position: fixed;
+    left:300px;
+    top: 500px;
+}
+
+.sticky-div {
+    position: sticky;
+    /* left:0; */
+    /* top: 0; */
+}
+.text {
+    position: static;
+    top: 92px;
+    /* padding: 0; */
+    /* margin-bottom: auto; */
+}
+
+.red {
+    background-color:indianred;
+    /* height: 50%; */
+}
+
+.yellow {
+    background-color: palegoldenrod;
+}
+
+.blue {
+    background-color:lightskyblue;
+}
+
+.green {
+    background-color:lightgreen;
+}
+
+.brown {
+    background-color:lightsalmon;
+}
+
+.black {
+    background-color:black;
+}
+
+.gray {
+    background-color:gray;
+}
+
+.maroon {
+    background-color: maroon;
+}
+
+.turqoise {
+    background-color: turquoise;
+}
